@@ -10,7 +10,7 @@ end_num: 9102
 	{% for i in (start_num..end_num) %}
     {% capture photo_thumb %}/uploads/{{ i }}.jpg{% endcapture %}
 		<li style="background-image: url('{{ site.baseurl }}{{ photo_thumb }}')">
-      <a href="#" data-featherlight="#lb-{{ i }}"></a>
+      <a data-fslightbox="gallery" href="#lb-{{ i }}"></a>
       <div id="lb-{{ i }}" class='exif_embed' data-id="{{ i }}"></div><script async src='https://embed.exif.co/exif.js'></script>
     </li>
 	{% endfor %}
@@ -35,17 +35,3 @@ end_num: 9102
 	<p class="caption"></p>
 	<img>
 </div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-  if (window.location.host === "app.cloudcannon.com") {
-    $('.gallery').find("a").click(function(e) {
-      e.preventDefault();
-      return false;
-    });
-  } else {
-    var script = document.createElement("script");
-    script.src = "{{ site.baseurl }}/js/lightbox.js";
-    document.body.appendChild(script);
-  }
-</script>
