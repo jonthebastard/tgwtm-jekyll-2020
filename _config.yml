@@ -1,20 +1,20 @@
 # ----
 # Site
 
-title: Aperture Template
-url: "https://cosmic-hippopotamus.cloudvent.net"
+title: that guy with the mohawk
+url: "https://www.thatguywiththemohawk.com/"
 baseurl:
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Photography portfolio template for Jekyll.
+description: personal photography of j. m. pirro
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Aperture Template
+  name: that guy with the mohawk
   links:
     - https://github.com/CloudCannon/aperture-jekyll-template
 

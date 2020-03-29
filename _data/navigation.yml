@@ -1,6 +1,6 @@
-- name: Home
+- name: home
   link: /
-- name: About
+- name: about
   link: /about/
-- name: Hire me
+- name: contact
   link: /contact/
