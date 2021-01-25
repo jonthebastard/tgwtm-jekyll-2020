@@ -12,6 +12,7 @@
 		<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
+		
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 			<script>
 				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -24,15 +25,7 @@
 
 	<body {% if page.text_width %}class="text-width"{% endif %}>
 		<div class="wrap">
-			<header>
-				<h1><a href="/">{{ site.title }}</a> | {{ site.description }}</h1>
-				{% include navigation.html %}
-			</header>
 			{{ content }}
-			<footer>
-			</footer>
 		</div>
-		<script src="{{ site.baseurl }}/js/fslightbox.js"></script>
-
 	</body>
 </html>

@@ -1,20 +1,20 @@
 # ----
 # Site
 
-title: that guy with the mohawk
-url: "https://www.thatguywiththemohawk.com/"
+title: concert shirts for sale
+url: "https://cosmic-hippopotamus.cloudvent.net"
 baseurl:
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: personal photography of j. m. pirro
+description: Photography portfolio template for Jekyll.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: that guy with the mohawk
+  name: Aperture Template
   links:
     - https://github.com/CloudCannon/aperture-jekyll-template
 
