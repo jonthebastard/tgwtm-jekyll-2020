@@ -2,3 +2,6 @@ _site/
 .sass-cache/
 .jekyll-metadata
 cache/
+*.py*
+*.sh
+shirts/.DS_Store
